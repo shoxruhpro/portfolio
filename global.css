@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  background-color: #282C33;
+  color: #FFF;
+  font-family: "Fira Code";
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+button {
+  border: none;
+  background-color: unset;
+  padding: 0;
+}
