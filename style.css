@@ -11,14 +11,14 @@
   column-gap: 8px;
 }
 
-.burger > :first-child {
+.burger> :first-child {
   width: 24px;
   height: 2px;
   background-color: #FFF;
   margin-top: 5px;
 }
 
-.burger > :last-child {
+.burger> :last-child {
   width: 15px;
   height: 2px;
   background-color: #FFF;
@@ -29,9 +29,48 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 16px 16px 8px;
+  padding: 16px 0 8px;
 }
 
 b {
   color: #C778DD;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 34px 0 25px;
+}
+
+.text {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ABB2BF;
+}
+
+img {
+  display: block;
+  margin: 24px auto 0;
+}
+
+.white {
+  color: #FFF;
+}
+
+.cta {
+  padding: 8px;
+  border: 1px solid #ABB2BF;
+  display: flex;
+  column-gap: 10px;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+  background-color: #C778DD;
 }
