@@ -17,7 +17,15 @@
         Elias
       </a>
 
-      <button class="burger">
+      <ul id="menu">
+        <li><a href="#">#home</a></li>
+        <li><a href="#">#works</a></li>
+        <li><a href="#">#about-me</a></li>
+        <li><a href="#">#contacts</a></li>
+        <li><a href="#">EN</a></li>
+      </ul>
+
+      <button class="burger" id="burger">
         <div></div>
         <div></div>
       </button>
@@ -28,14 +36,33 @@
     <p class="text">He crafts responsive websites where technologies meet creativity</p>
   </header>
 
-  <section>
-    <img src="me.png" alt="My photo" width="316">
+  <section id="about">
+    <img src="me.png" class="photo" alt="My photo" width="316">
 
     <div class="cta">
       <div class="square"></div>
       <p class="text">Currently working on <b class="white">Portfolio</b></p>
     </div>
   </section>
+
+  <section id="contacts">
+    <form>
+      <div class="row-inputs">
+        <div>
+          <input type="text" name="name" id="name" placeholder="Name">
+        </div>
+        <div>
+          <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+      </div>
+
+      <input type="text" name="title" id="title" placeholder="Title">
+      <textarea name="message" id="message" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

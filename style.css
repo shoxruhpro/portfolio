@@ -29,6 +29,7 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 16px 0 8px;
 }
 
@@ -53,7 +54,7 @@ h1 {
   color: #ABB2BF;
 }
 
-img {
+.photo {
   display: block;
   margin: 24px auto 0;
 }
@@ -67,10 +68,65 @@ img {
   border: 1px solid #ABB2BF;
   display: flex;
   column-gap: 10px;
+  align-items: center;
 }
 
 .square {
   width: 16px;
   height: 16px;
   background-color: #C778DD;
+}
+
+#about {
+  padding-bottom: 47px;
+}
+
+#contacts {
+  margin: 16px;
+}
+
+.row-inputs {
+  display: flex;
+  column-gap: 16px;
+}
+
+.row-inputs>div {
+  flex: 1;
+}
+
+form {
+  width: 100%;
+  display: block;
+}
+
+input,
+textarea {
+  padding: 8px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0%);
+  border: 1px solid #ABB2BF;
+  color: #ABB2BF;
+  margin-bottom: 16px;
+}
+
+button[type=submit] {
+  border: 1px solid #C778DD;
+  width: auto;
+  padding: 8px 16px;
+  color: #FFF;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+ul {
+  position: absolute;
+  top: 48px;
+  left: 16px;
+  background-color: #282C33;
+  padding-top: 47px;
+  width: 100%;
+  display: none;
 }
