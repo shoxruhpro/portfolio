@@ -124,9 +124,33 @@ button[type=submit] {
 ul {
   position: absolute;
   top: 48px;
-  left: 16px;
+  left: 0;
   background-color: #282C33;
-  padding-top: 47px;
+  padding: 47px 0 0 16px;
   width: 100%;
   display: none;
+}
+
+#burger {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.close > div {
+  width: 24px;
+  height: 2px;
+  background-color: #FFF;
+  margin: 0;
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+
+.close > :first-child {
+  transform: rotate(45deg);
+}
+
+.close > :last-child {
+  transform: rotate(-45deg);
 }
