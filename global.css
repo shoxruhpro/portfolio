@@ -22,3 +22,7 @@ button {
   background-color: unset;
   padding: 0;
 }
+
+ul {
+  list-style: none;
+}

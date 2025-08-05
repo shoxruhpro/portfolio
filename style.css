@@ -131,10 +131,15 @@ button[type=submit] {
   position: absolute;
   top: 48px;
   left: 0;
-  background-color: #282C33;
+  background-color: var(--background);
   padding: 47px 0 0 16px;
   width: 100%;
   display: none;
+  color: var(--gray);
+}
+
+#menu > li {
+  margin-bottom: 32px;
 }
 
 #burger {
@@ -164,4 +169,12 @@ button[type=submit] {
 
 #burger > div {
   transition: transform 1s;
+}
+
+.text-primary {
+  color: var(--primary)
+}
+
+.active {
+  color: var(--white);
 }
