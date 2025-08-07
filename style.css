@@ -132,13 +132,17 @@ button[type=submit] {
   top: 48px;
   left: 0;
   background-color: var(--background);
-  padding: 47px 0 0 16px;
   width: 100%;
   display: none;
   color: var(--gray);
+  padding-bottom: 36px;
 }
 
-#menu > li {
+#menu > ul {
+  padding: 47px 0 0 16px;
+}
+
+#menu li {
   margin-bottom: 32px;
 }
 
@@ -177,4 +181,16 @@ button[type=submit] {
 
 .active {
   color: var(--white);
+}
+
+.social {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social > * {
+  width: 64px;
+  height: 64px;
 }
