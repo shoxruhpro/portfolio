@@ -1,0 +1,33 @@
+@media only screen and (min-width: 576px) {
+  nav {
+    padding-top: 32px;
+    justify-content: space-between;
+  }
+
+  #menu {
+    display: block;
+    position: static;
+    padding: 0;
+    width: fit-content;
+  }
+
+  #burger {
+    display: none;
+  }
+
+  #menu > ul {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 0;
+    column-gap: 32px;
+  }
+
+  #menu li {
+    margin: 0;
+  }
+
+  .social {
+    display: none;
+  }
+}
